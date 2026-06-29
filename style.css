@@ -268,7 +268,3 @@ body{
   display:flex; align-items:center; justify-content:center;
   box-shadow:0 8px 20px rgba(0,0,0,.4);
 }
-
-@media (prefers-reduced-motion: reduce){
-  *{animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.2s !important;}
-}
