@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Happy Birthday</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Dancing+Script:wght@600;700&family=Quicksand:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgm" loop></audio>
+
+<!-- COVER / INTRO -->
+<div class="cover" id="cover">
+  <div class="petals-ambient" id="coverPetals"></div>
+  <p class="eyebrow" id="coverTagline">a little something for you</p>
+  <div class="envelope" id="envelope" tabindex="0" role="button" aria-label="Open your birthday surprise">
+    <div class="envelope-back"></div>
+    <div class="envelope-paper" id="envelopePaper"></div>
+    <div class="envelope-flap" id="envelopeFlap"></div>
+    <div class="seal" id="seal">&#10084;</div>
+  </div>
+  <p class="tap-hint">tap the seal to open</p>
+</div>
+
+<div class="confetti-burst" id="confettiBurst"></div>
+
+<!-- MAIN CONTENT -->
+<main class="main" id="main">
+
+  <section class="hero">
+    <div class="petals-ambient" id="heroPetals"></div>
+    <p class="eyebrow">happy birthday</p>
+    <h1 id="heroName">Happy Birthday!</h1>
+    <p class="hero-sub">scroll down, there's more&nbsp;:)</p>
+    <div class="scroll-cue">&#8595;</div>
+  </section>
+
+  <section class="gallery">
+    <p class="eyebrow center">a few of my favorites</p>
+    <div class="polaroid-row" id="polaroidRow"></div>
+  </section>
+
+  <section class="letter-section">
+    <div class="letter-card">
+      <div class="letter-fold one"></div>
+      <div class="letter-fold two"></div>
+      <div class="letter-text" id="letterText"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <button class="ghost-btn" id="replayBtn">replay the opening</button>
+  </footer>
+
+</main>
+
+<button class="music-toggle" id="musicToggle" aria-label="Play music">&#9835;</button>
+
+<script src="script.js"></script>
+</body>
+</html>
