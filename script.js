@@ -5,7 +5,7 @@
 const CONFIG = {
 
   // Her name — shown in the big headline
-  girlfriendName: "Hanana sayanggg",
+  girlfriendName: "Hanana Sayangg",
 
   // Small line above the envelope on the opening screen
   coverTagline: "a little something for you my Anugerah Terindah",
@@ -15,16 +15,16 @@ const CONFIG = {
 
 I don't think I tell you enough how much you mean to me, so today felt like the right day to put it in writing.
 
-first of all i wanna say to my babyy ,thank you sayang for accepting me just the way i am.Every day i wake up feeling thankful that Allah has given me you because you are my anugerah yang terindah. i know that we still learning to communicate with each other better , and saya harapp awak boleh maafkann saya because i alwayss make you mad heheheheh .
+first of all i wanna say to my babyy ,thank you sayang for accepting me just the way i am.Every day i wake up feeling thankful that Allah has given me you because you are my anugerah yang terindah. I know that we still learning to communicate with each other better , and saya harapp awak boleh maafkann saya because i alwayss make you mad heheheheh .
 This is going to be a long journey and i hope kita boleh stick with each other until the very end . My love for you will never be dim sebab you are the light to my heart and a rainbow to my day .
 Thanks sayangg forr everyything, i pray that i can marry you and make you the happiest girl in the world . I loveeeeeee youuuuuuuuuu sosososoososososososoosos muchhhhhh myyy babyyyyyyy😘. 
 
 Happy birthhdayy my sweetiee Hanana semogaa awak jadi anak yang solehah dan jadi my futuree wifee aminnnn🤭. 
-this letter is not enough to show my real lovee for youu this is a friction of what i can givee youu
-(Sebenarnye tak friction pun because my lovee for you is infinite).Thatss iss all babyybooooo Thankkk youuu tauuuu myyy cintaaaaaa 😘😘😘😘😘
+this letter is not enough to show my real lovee for youu this is a friction of what i can givee youu(Sebenarnye tak friction pun because my lovee for you is infinite).
+Thatss iss all babyybooooo Thankkk youuu tauuuu myyy cintaaaaaa 😘😘😘😘😘
 😘😘😘😘😘❤️🥰❤️🥰
 
-Yours always,
+Yours LOYL,
 Your Babyy Aqif`,
 
   // The song file. Keep it in the same folder as this script (or paste a
@@ -44,8 +44,6 @@ Your Babyy Aqif`,
 };
 /* ====================================================================== */
 
-const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
 function init(){
   document.title = "Happy Birthday, " + CONFIG.girlfriendName;
   document.getElementById('heroName').textContent = "Happy Birthday, " + CONFIG.girlfriendName + "!";
@@ -57,10 +55,8 @@ function init(){
   const audio = document.getElementById('bgm');
   audio.src = CONFIG.songSrc;
 
-  if(!reducedMotion){
-    spawnPetals(document.getElementById('coverPetals'), 9);
-    spawnPetals(document.getElementById('heroPetals'), 6);
-  }
+  spawnPetals(document.getElementById('coverPetals'), 9);
+  spawnPetals(document.getElementById('heroPetals'), 6);
 }
 
 function buildLetter(){
@@ -125,7 +121,6 @@ function spawnPetals(container, count){
 }
 
 function triggerConfetti(){
-  if(reducedMotion) return;
   const burst = document.getElementById('confettiBurst');
   const colors = ['#d4a847', '#e8b4bc', '#f7efe1', '#9c7222'];
   for(let i = 0; i < 40; i++){
