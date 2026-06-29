@@ -5,13 +5,13 @@
 const CONFIG = {
 
   // Her name — shown in the big headline
-  girlfriendName: "Name",
+  girlfriendName: "Hanana",
 
   // Small line above the envelope on the opening screen
-  coverTagline: "a little something for you",
+  coverTagline: "a little something for you my Anugerah Terindah",
 
   // Your letter. Leave a blank line between paragraphs to start a new one.
-  letter: `Dear Name,
+  letter: `Dear Hanana,
 
 I don't think I tell you enough how much you mean to me, so today felt like the right day to put it in writing.
 
