@@ -5,22 +5,27 @@
 const CONFIG = {
 
   // Her name — shown in the big headline
-  girlfriendName: "Hanana",
+  girlfriendName: "Hanana sayanggg",
 
   // Small line above the envelope on the opening screen
   coverTagline: "a little something for you my Anugerah Terindah",
 
   // Your letter. Leave a blank line between paragraphs to start a new one.
-  letter: `Dear Hanana,
+  letter: `Kepada Cintaku yang sempurna,
 
 I don't think I tell you enough how much you mean to me, so today felt like the right day to put it in writing.
 
-(Write the rest of your letter right here. Talk about a memory you love, something you admire about her, or what you're excited for together. Replace this whole paragraph with your own words.)
+first of all i wanna say to my babyy ,thank you sayang for accepting me just the way i am.Every day i wake up feeling thankful that Allah has given me you because you are my anugerah yang terindah. i know that we still learning to communicate with each other better , and saya harapp awak boleh maafkann saya because i alwayss make you mad heheheheh .
+This is going to be a long journey and i hope kita boleh stick with each other until the very end . My love for you will never be dim sebab you are the light to my heart and a rainbow to my day .
+Thanks sayangg forr everyything, i pray that i can marry you and make you the happiest girl in the world . I loveeeeeee youuuuuuuuuu sosososoososososososoosos muchhhhhh myyy babyyyyyyy😘. 
 
-Happy birthday. I love you more than these words can hold.
+Happy birthhdayy my sweetiee Hanana semogaa awak jadi anak yang solehah dan jadi my futuree wifee aminnnn🤭. 
+this letter is not enough to show my real lovee for youu this is a friction of what i can givee youu
+(Sebenarnye tak friction pun because my lovee for you is infinite).Thatss iss all babyybooooo Thankkk youuu tauuuu myyy cintaaaaaa 😘😘😘😘😘
+😘😘😘😘😘❤️🥰❤️🥰
 
 Yours always,
-Your Name`,
+Your Babyy Aqif`,
 
   // The song file. Keep it in the same folder as this script (or paste a
   // direct link to an mp3 file instead).
